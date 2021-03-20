@@ -42,13 +42,16 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
             Row(
               children: [
-                Text(
-                  'Share your favourite Books & inspiration with your mates.',
-                  style: TextStyle(
-                      fontSize: 13,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.black),
-                  textAlign: TextAlign.right,
+                Padding(
+                  padding: const EdgeInsets.only(left: 20),
+                  child: Text(
+                    'Share your favourite Books & inspiration with your mates.',
+                    style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.normal,
+                        color: Colors.black),
+                    textAlign: TextAlign.right,
+                  ),
                 ),
               ],
             ),
