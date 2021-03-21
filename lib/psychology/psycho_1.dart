@@ -1,7 +1,7 @@
-import 'file:///D:/android_studio/book_desk/lib/psychology/psychoA.dart';
-import 'file:///D:/android_studio/book_desk/lib/psychology/psychoB.dart';
-import 'file:///D:/android_studio/book_desk/lib/psychology/psychoC.dart';
-import 'file:///D:/android_studio/book_desk/lib/psychology/psychoD.dart';
+import 'package:book_desk/psychology/psychoA.dart';
+import 'package:book_desk/psychology/psychoB.dart';
+import 'package:book_desk/psychology/psychoC.dart';
+import 'package:book_desk/psychology/psychoD.dart';
 import 'package:flutter/material.dart';
 
 class Psychology1 extends StatefulWidget {
