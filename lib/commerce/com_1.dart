@@ -1,8 +1,8 @@
-import 'file:///D:/android_studio/book_desk/lib/commerce/comA.dart';
-import 'file:///D:/android_studio/book_desk/lib/commerce/comB.dart';
-import 'file:///D:/android_studio/book_desk/lib/commerce/comC.dart';
-import 'file:///D:/android_studio/book_desk/lib/commerce/comD.dart';
-import 'file:///D:/android_studio/book_desk/lib/commerce/comE.dart';
+import 'package:book_desk/commerce/comA.dart';
+import 'package:book_desk/commerce/comB.dart';
+import 'package:book_desk/commerce/comC.dart';
+import 'package:book_desk/commerce/comD.dart';
+import 'package:book_desk/commerce/comE.dart';
 import 'package:flutter/material.dart';
 
 class Commerce1 extends StatefulWidget {
