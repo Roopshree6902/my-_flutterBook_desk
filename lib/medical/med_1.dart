@@ -1,8 +1,8 @@
-import 'file:///D:/android_studio/book_desk/lib/medical/medA.dart';
-import 'file:///D:/android_studio/book_desk/lib/medical/medB.dart';
-import 'file:///D:/android_studio/book_desk/lib/medical/medC.dart';
-import 'file:///D:/android_studio/book_desk/lib/medical/medD.dart';
-import 'file:///D:/android_studio/book_desk/lib/medical/medE.dart';
+import 'package:book_desk/medical/medA.dart';
+import 'package:book_desk/medical/medB.dart';
+import 'package:book_desk/medical/medC.dart';
+import 'package:book_desk/medical/medD.dart';
+import 'package:book_desk/medical/medE.dart';
 import 'package:flutter/material.dart';
 
 class Medical1 extends StatefulWidget {
