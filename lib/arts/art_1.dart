@@ -1,8 +1,8 @@
-import 'file:///D:/android_studio/book_desk/lib/arts/artA.dart';
-import 'file:///D:/android_studio/book_desk/lib/arts/artB.dart';
-import 'file:///D:/android_studio/book_desk/lib/arts/artC.dart';
-import 'file:///D:/android_studio/book_desk/lib/arts/artD.dart';
-import 'file:///D:/android_studio/book_desk/lib/arts/artE.dart';
+import 'package:book_desk/arts/artA.dart';
+import 'package:book_desk/arts/artB.dart';
+import 'package:book_desk/arts/artC.dart';
+import 'package:book_desk/arts/artD.dart';
+import 'package:book_desk/arts/artE.dart';
 import 'package:flutter/material.dart';
 
 class Art1 extends StatefulWidget {
