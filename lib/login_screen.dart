@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'section_1st.dart';
 
 class LoginScreen extends StatefulWidget {
   static const String id = 'login_screen';
@@ -87,6 +88,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: MaterialButton(
                   onPressed: () {
                     //Implement login functionality.
+                    Navigator.pushNamed(context, Section1.id);
                   },
                   minWidth: 200.0,
                   height: 42.0,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'section_1st.dart';
 
 class RegistrationScreen extends StatefulWidget {
   static const String id = 'registration-screen';
@@ -87,6 +88,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 child: MaterialButton(
                   onPressed: () {
                     //Implement registration functionality.
+                    Navigator.pushNamed(context, Section1.id);
                   },
                   minWidth: 200.0,
                   height: 42.0,
