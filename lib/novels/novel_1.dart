@@ -1,8 +1,8 @@
-import 'file:///D:/android_studio/book_desk/lib/novels/novelA.dart';
-import 'file:///D:/android_studio/book_desk/lib/novels/novelB.dart';
-import 'file:///D:/android_studio/book_desk/lib/novels/novelC.dart';
-import 'file:///D:/android_studio/book_desk/lib/novels/novelD.dart';
-import 'file:///D:/android_studio/book_desk/lib/novels/novelE.dart';
+import 'package:book_desk/novels/novelA.dart';
+import 'package:book_desk/novels/novelB.dart';
+import 'package:book_desk/novels/novelC.dart';
+import 'package:book_desk/novels/novelD.dart';
+import 'package:book_desk/novels/novelE.dart';
 import 'package:flutter/material.dart';
 
 class Novel1 extends StatefulWidget {
