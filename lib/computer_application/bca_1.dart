@@ -1,8 +1,8 @@
-import 'file:///D:/android_studio/book_desk/lib/computer_application/bcaA.dart';
-import 'file:///D:/android_studio/book_desk/lib/computer_application/bcaB.dart';
-import 'file:///D:/android_studio/book_desk/lib/computer_application/bcaC.dart';
-import 'file:///D:/android_studio/book_desk/lib/computer_application/bcaD.dart';
-import 'file:///D:/android_studio/book_desk/lib/computer_application/bcaE.dart';
+import 'package:book_desk/computer_application/bcaA.dart';
+import 'package:book_desk/computer_application/bcaB.dart';
+import 'package:book_desk/computer_application/bcaC.dart';
+import 'package:book_desk/computer_application/bcaD.dart';
+import 'package:book_desk/computer_application/bcaE.dart';
 import 'package:flutter/material.dart';
 
 class BCApplication extends StatefulWidget {
