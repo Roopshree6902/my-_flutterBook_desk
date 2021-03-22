@@ -44,6 +44,7 @@ import 'novels/novelB.dart';
 import 'novels/novelC.dart';
 import 'novels/novelD.dart';
 import 'novels/novelE.dart';
+import 'size_helpers.dart';
 
 void main() => runApp(BookDesk());
 
