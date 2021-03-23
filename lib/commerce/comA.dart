@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../comments.dart';
+
 class CommerceA extends StatefulWidget {
   static const String id = 'comA';
   @override
@@ -35,7 +37,8 @@ class _CommerceAState extends State<CommerceA> {
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
                       onPressed: () {
-                        //Go to login screen.
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/the-general-theory-of-employment.html');
                       },
                       minWidth: 200.0,
                       height: 100,
@@ -57,8 +60,9 @@ class _CommerceAState extends State<CommerceA> {
                     color: Color(0xFFE7DAC9),
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
-                      onPressed: () {
-                        //Go to login screen.
+                      onPressed: () async {
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/famous-figures-and-diagrams-in.html');
                       },
                       minWidth: 200.0,
                       height: 100,

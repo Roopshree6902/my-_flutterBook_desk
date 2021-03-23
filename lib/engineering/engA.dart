@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../comments.dart';
+
 class EngineeringA extends StatefulWidget {
   static const String id = 'engA';
   @override
@@ -34,8 +36,9 @@ class _EngineeringAState extends State<EngineeringA> {
                     color: Color(0xFFE7DAC9),
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
-                      onPressed: () {
-                        //Go to login screen.
+                      onPressed: () async {
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/higher-engineering-mathematics-by.html');
                       },
                       minWidth: 200.0,
                       height: 100,
@@ -57,8 +60,9 @@ class _EngineeringAState extends State<EngineeringA> {
                     color: Color(0xFFE7DAC9),
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
-                      onPressed: () {
-                        //Go to login screen.
+                      onPressed: () async {
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/advanced-engineering-mathematics-by.html');
                       },
                       minWidth: 200.0,
                       height: 100,
@@ -80,8 +84,9 @@ class _EngineeringAState extends State<EngineeringA> {
                     color: Color(0xFFE7DAC9),
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
-                      onPressed: () {
-                        //Go to login screen.
+                      onPressed: () async {
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/advanced-engineering-mathematics-by_22.html');
                       },
                       minWidth: 200.0,
                       height: 100,
@@ -103,8 +108,9 @@ class _EngineeringAState extends State<EngineeringA> {
                     color: Color(0xFFE7DAC9),
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
-                      onPressed: () {
-                        //Go to login screen.
+                      onPressed: () async {
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/engineering-mathematics-by-jbird.html');
                       },
                       minWidth: 200.0,
                       height: 100,

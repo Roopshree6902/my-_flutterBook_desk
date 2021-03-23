@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../comments.dart';
+
 class MedicalA extends StatefulWidget {
   static const String id = 'medA';
   @override
@@ -35,7 +37,8 @@ class _MedicalAState extends State<MedicalA> {
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
                       onPressed: () {
-                        //Go to login screen.
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/a-history-of-parthology-by-esmond-ray.html');
                       },
                       minWidth: 200.0,
                       height: 100,
