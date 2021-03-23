@@ -1,8 +1,10 @@
-import 'engA.dart';
-import 'engB.dart';
-import 'engC.dart';
-import 'engD.dart';
-import 'engE.dart';
+
+import 'package:book_desk/engineering/engA.dart';
+import 'package:book_desk/engineering/engB.dart';
+import 'package:book_desk/engineering/engC.dart';
+import 'package:book_desk/engineering/engD.dart';
+import 'package:book_desk/engineering/engE.dart';
+
 import 'package:flutter/material.dart';
 
 class Engineering1 extends StatefulWidget {

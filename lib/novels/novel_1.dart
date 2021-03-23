@@ -1,8 +1,10 @@
-import 'novelA.dart';
-import 'novelB.dart';
-import 'novelC.dart';
-import 'novelD.dart';
-import 'novelE.dart';
+
+import 'package:book_desk/novels/novelA.dart';
+import 'package:book_desk/novels/novelB.dart';
+import 'package:book_desk/novels/novelC.dart';
+import 'package:book_desk/novels/novelD.dart';
+import 'package:book_desk/novels/novelE.dart';
+
 import 'package:flutter/material.dart';
 
 class Novel1 extends StatefulWidget {

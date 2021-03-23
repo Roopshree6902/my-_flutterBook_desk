@@ -1,8 +1,10 @@
-import 'medA.dart';
-import 'medB.dart';
-import 'medC.dart';
-import 'medD.dart';
-import 'medE.dart';
+
+import 'package:book_desk/medical/medA.dart';
+import 'package:book_desk/medical/medB.dart';
+import 'package:book_desk/medical/medC.dart';
+import 'package:book_desk/medical/medD.dart';
+import 'package:book_desk/medical/medE.dart';
+
 import 'package:flutter/material.dart';
 
 class Medical1 extends StatefulWidget {
