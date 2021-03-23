@@ -2,6 +2,7 @@ import 'package:book_desk/login_screen.dart';
 import 'package:book_desk/registration_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'size_helpers.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcome_screen';
@@ -27,13 +28,13 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   tag: 'logo',
                   child: Container(
                     child: Image.asset('images/book.png'),
-                    height: 60,
+                    height: displayHeight(context) * 0.07,
                   ),
                 ),
                 Text(
                   'Book Desk',
                   style: TextStyle(
-                    fontSize: 45.0,
+                    fontSize: displayHeight(context) * 0.04,
                     fontWeight: FontWeight.w900,
                     color: Colors.black,
                   ),
@@ -43,20 +44,21 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 20),
+                  padding: const EdgeInsets.fromLTRB(50.0, 4.0, 6.0, 60.0),
                   child: Text(
-                    'Share your favourite Books & inspiration with your mates.',
+                    'Share Books & inspiration with your mates.',
                     style: TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.normal,
+                        fontSize: displayWidth(context) * 0.03,
+                        fontWeight: FontWeight.bold,
                         color: Colors.black),
-                    textAlign: TextAlign.right,
+                    textAlign: TextAlign.center,
                   ),
                 ),
               ],
             ),
             SizedBox(
-              height: 48.0,
+              height: null,
+              width: null,
             ),
             Padding(
               padding: EdgeInsets.symmetric(vertical: 16.0),
@@ -69,8 +71,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     //Go to login screen.
                     Navigator.pushNamed(context, LoginScreen.id);
                   },
-                  minWidth: 200.0,
-                  height: 42.0,
+                  minWidth: displayWidth(context) * 0.8,
+                  height: displayHeight(context) * 0.04,
                   child: Text(
                     'Log In',
                     style: TextStyle(
@@ -91,8 +93,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     //Go to registration screen.
                     Navigator.pushNamed(context, RegistrationScreen.id);
                   },
-                  minWidth: 200.0,
-                  height: 42.0,
+                  minWidth: displayWidth(context) * 0.8,
+                  height: displayHeight(context) * 0.05,
                   child: Text(
                     'Register',
                     style: TextStyle(
