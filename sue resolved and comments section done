@@ -1,0 +1,87 @@
+[33mcommit e963134422cdfb4ae8fda9366c343d1daec4a014[m[33m ([m[1;36mHEAD -> [m[1;32mLoginAndRegister_Responsiveness_Comments_part[m[33m)[m
+Author: = <=>
+Date:   Tue Mar 23 19:20:00 2021 +0530
+
+    overflow issue resolved and comments section done
+
+[33mcommit b4e8ca37bd0b9acf4b7d6bff8815449df04ed0d1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 8f410da 95002f2
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Tue Mar 23 11:12:25 2021 +0530
+
+    Merge pull request #1 from Suhanii1214/main
+    
+    changes made for responsiveness
+
+[33mcommit 95002f21ac371631c12a0cdbdc9a032b9f3487e5[m
+Merge: a1460cb 8f410da
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Tue Mar 23 11:09:17 2021 +0530
+
+    Merge branch 'main' into main
+
+[33mcommit a1460cb20855c00ed85819c3785031af941e37b5[m
+Author: Suhani Singh <suhani.12010153@lpu.in>
+Date:   Mon Mar 22 20:29:19 2021 +0530
+
+    changes made for responsiveness
+
+[33mcommit 8f410dae104646ca3fb94aa23979d0be81c1ee41[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:44:16 2021 +0530
+
+    Update psycho_1.dart
+
+[33mcommit b39c4f521812b2812e4f232c21f39cc00a6be612[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:43:20 2021 +0530
+
+    Update novel_1.dart
+
+[33mcommit a5be145482092cfbba49390ea1a7544a1c093364[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:42:41 2021 +0530
+
+    Update med_1.dart
+
+[33mcommit 0fc4d14997d63d9557f06015812f71aa639d7f9d[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:41:48 2021 +0530
+
+    Update eng_1.dart
+
+[33mcommit 08c549842ca43fa4db07353cadc2f86277bdea83[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:40:55 2021 +0530
+
+    Update bca_1.dart
+
+[33mcommit 179aa457a2569ddbb79ab0fa4ef5c2038bf85829[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:40:05 2021 +0530
+
+    Update com_1.dart
+
+[33mcommit 6d7f8289863838882d2b68c23261253b2811b6c5[m
+Author: ROOPSHREE <70578434+Roopshree6902@users.noreply.github.com>
+Date:   Mon Mar 22 02:39:08 2021 +0530
+
+    Update art_1.dart
+
+[33mcommit f55531edb416b1d818ceeb576b153022c73fd492[m
+Author: Roopshree <parmarroopshreeudaywal@gmail.com>
+Date:   Sun Mar 21 22:21:11 2021 +0530
+
+    First Commit
+
+[33mcommit 69f52b0d5e07e7ba54c4b42a8a1ae5a117f8467f[m
+Author: Roopshree <parmarroopshreeudaywal@gmail.com>
+Date:   Sat Mar 20 10:41:14 2021 +0530
+
+    first commit
+
+[33mcommit e9a2a1744fc3be05767e80a92601ef16cbc54bd4[m
+Author: Roopshree <parmarroopshreeudaywal@gmail.com>
+Date:   Fri Mar 19 23:40:16 2021 +0530
+
+    First commit
