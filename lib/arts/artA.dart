@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../comments.dart';
+
 class ArtsA extends StatefulWidget {
   static const String id = 'artA';
   @override
@@ -33,7 +35,9 @@ class _ArtsAState extends State<ArtsA> {
                   color: Color(0xFFE7DAC9),
                   borderRadius: BorderRadius.circular(30.0),
                   child: MaterialButton(
-                    onPressed: () {
+                    onPressed: () async {
+                      commentLinkReDirect(
+                          'https://bookdesk1.blogspot.com/2021/03/galimpsese-of-world-history-by.html');
                       //Go to login screen.
                     },
                     minWidth: 200.0,
@@ -56,8 +60,9 @@ class _ArtsAState extends State<ArtsA> {
                   color: Color(0xFFE7DAC9),
                   borderRadius: BorderRadius.circular(30.0),
                   child: MaterialButton(
-                    onPressed: () {
-                      //Go to login screen.
+                    onPressed: () async {
+                      commentLinkReDirect(
+                          'https://bookdesk1.blogspot.com/2021/03/indias-ancient-past-by-rs-sharma.html');
                     },
                     minWidth: 200.0,
                     height: 100,
@@ -79,8 +84,9 @@ class _ArtsAState extends State<ArtsA> {
                   color: Color(0xFFE7DAC9),
                   borderRadius: BorderRadius.circular(30.0),
                   child: MaterialButton(
-                    onPressed: () {
-                      //Go to login screen.
+                    onPressed: () async {
+                      //  commentLinkReDirect(
+                      //     'https://bookdesk1.blogspot.com/2021/03/galimpsese-of-world-history-by.html');
                     },
                     minWidth: 200.0,
                     height: 100,

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../comments.dart';
+
 class NovelA extends StatefulWidget {
   static const String id = 'novelA';
   @override
@@ -35,7 +37,8 @@ class _NovelAState extends State<NovelA> {
                     borderRadius: BorderRadius.circular(30.0),
                     child: MaterialButton(
                       onPressed: () {
-                        //Go to login screen.
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/the-detective-by-roderick-thorp.html');
                       },
                       minWidth: 200.0,
                       height: 100,
@@ -59,6 +62,8 @@ class _NovelAState extends State<NovelA> {
                     child: MaterialButton(
                       onPressed: () {
                         //Go to login screen.
+                        commentLinkReDirect(
+                            'https://bookdesk1.blogspot.com/2021/03/the-silent-patient-by-alex-michaelides.html');
                       },
                       minWidth: 200.0,
                       height: 100,
