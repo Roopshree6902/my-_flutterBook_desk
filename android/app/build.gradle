@@ -1,3 +1,5 @@
+
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -48,3 +50,10 @@ android {
 flutter {
     source '../..'
 }
+dependencies {
+
+    implementation platform('com.google.firebase:firebase-bom:26.7.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
+}
+apply plugin: 'com.google.gms.google-services'

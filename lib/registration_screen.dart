@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'section_1st.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class RegistrationScreen extends StatefulWidget {
   static const String id = 'registration-screen';
@@ -8,6 +9,9 @@ class RegistrationScreen extends StatefulWidget {
 }
 
 class _RegistrationScreenState extends State<RegistrationScreen> {
+  final _auth = FirebaseAuth.instance;
+  String email;
+  String password;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,6 +40,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     TextField(
                       onChanged: (value) {
                         //Do something with the user input.
+                        email = value;
                       },
                       decoration: InputDecoration(
                         hintText: 'Enter your email',
@@ -63,6 +68,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     TextField(
                       onChanged: (value) {
                         //Do something with the user input.
+                        password = value;
                       },
                       obscureText: true,
                       decoration: InputDecoration(
@@ -95,9 +101,16 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         borderRadius: BorderRadius.all(Radius.circular(30.0)),
                         elevation: 5.0,
                         child: MaterialButton(
-                          onPressed: () {
-                            //Implement registration functionality.
-                            Navigator.pushNamed(context, Section1.id);
+                          onPressed: () async {
+                            try {
+                              final newUser =
+                                  await _auth.createUserWithEmailAndPassword(
+                                      email: email, password: password);
+                              if (newUser != null)
+                                Navigator.pushNamed(context, Section1.id);
+                            } catch (e) {
+                              print(e);
+                            }
                           },
                           minWidth: 200.0,
                           height: 42.0,
