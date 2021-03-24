@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117367483532",
+    "project_id": "book-desk-fc6e4",
+    "storage_bucket": "book-desk-fc6e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117367483532:android:0d19646d8f8718107bdfa9",
+        "android_client_info": {
+          "package_name": "com.roop.book_desk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117367483532-s06n009ostca8dqn7a1ptrkhcqpcv8mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD-4D5gokCjY-C5aDe9ddTXXPgiOXBl-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117367483532-s06n009ostca8dqn7a1ptrkhcqpcv8mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
