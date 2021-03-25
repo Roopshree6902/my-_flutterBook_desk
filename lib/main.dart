@@ -44,7 +44,12 @@ import 'novels/novelB.dart';
 import 'novels/novelC.dart';
 import 'novels/novelD.dart';
 import 'novels/novelE.dart';
-import 'size_helpers.dart';
+
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await Firebase.initializeApp();
+//   runApp(BookDesk());
+// }
 
 void main() => runApp(BookDesk());
 
@@ -52,6 +57,7 @@ class BookDesk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
           textTheme: TextTheme(
             bodyText2: TextStyle(color: Colors.black54),
