@@ -10,6 +10,7 @@ class RegistrationScreen extends StatefulWidget {
 }
 
 class _RegistrationScreenState extends State<RegistrationScreen> {
+
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
@@ -192,6 +193,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                           validator: (input) {
                             if (input.length < 6) {
                               return "Password should be 6 char";
+
                             }
                           },
                           decoration: InputDecoration(
