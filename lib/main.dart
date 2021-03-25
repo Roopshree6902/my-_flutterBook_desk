@@ -1,4 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'welome_screen.dart';
 import 'login_screen.dart';
@@ -45,7 +44,6 @@ import 'novels/novelB.dart';
 import 'novels/novelC.dart';
 import 'novels/novelD.dart';
 import 'novels/novelE.dart';
-import 'size_helpers.dart';
 
 // void main() async {
 //   WidgetsFlutterBinding.ensureInitialized();

@@ -62,7 +62,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             title: Text("Error"),
             content: Text(errorMessage, style: TextStyle(color: Colors.black)),
             actions: <Widget>[
-              FlatButton(
+              TextButton(
                 child: Text(
                   "ok",
                   style: TextStyle(color: Colors.black),
