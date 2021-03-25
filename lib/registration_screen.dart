@@ -242,7 +242,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       Padding(
                         padding: EdgeInsets.only(top: 20.0),
                       ),
-                      GestureDetector(
+                      InkWell(
                         onTap: moveToSignInPage,
                         child: Text('Already have an account?'),
                       ),
